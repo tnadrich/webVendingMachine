@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "aniron";
+    src: url("font/aniron.regular.ttf");
+}
+
+#money-input, #messages-box, #item-box, #change-box {
+    margin-bottom: 10px;
+    text-align: center;
+}
+#add-dollar-button, #add-quarter-button, #add-dime-button, #add-nickel-button, #make-purchase-button, #change-return-button {
+    width: 125px;
+    height: 35px;
+    background-color: #0C7C31;
+    border-color: #0C7C31;
+}
+#add-dollar-button, #add-quarter-button {
+    margin-bottom: 10px;
+}
+.btn-outline-primary {
+    width: 150px;
+    margin: 25px;
+    border-color: #0C7C31;
+    color: #0C7C31;
+}
+.item-id-class-name {
+    text-align: left;
+    font-weight: bold;
+}
+h1, h3 {
+    text-align: center;
+    font-family: "aniron", sans-serif;
+    color: #0C7C31;
+}
+#item-form-label {
+    color: #0C7C31;
+}
+/* Button Effects */
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #D2691E;
+    border-color: #D2691E;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #D2691E;
+    border-color: #D2691E;
+}

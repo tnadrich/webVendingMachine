@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Vending Machine</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Vending Machine</h1>
+        <hr/>
+        <div class="row">
+            <div class="col-md-8" id="all-items-buttons">
+
+            </div>
+            <div id="user-interface" class="col-md-4 text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 id="h3-total">Total &#36; In</h3>
+                    </div>
+                    <div class="col-md-12">
+                        <input readonly type="text" class="form-control" id="money-input"/>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" id="add-dollar-button" class="btn btn-primary btn-sm">
+                            <p>Add Dollar</p>
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" id="add-quarter-button" class="btn btn-primary btn-sm">
+                            <p>Add Quarter</p>
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" id="add-dime-button" class="btn btn-primary btn-sm">
+                            <p>Add Dime</p>
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="button" id="add-nickel-button" class="btn btn-primary btn-sm">
+                            <p>Add Nickel</p>
+                        </button>
+                    </div>
+                </div>
+                <hr/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 id="h3-messages">Messages</h3>
+                    </div>
+                    <div class="col-md-12">
+                        <input readonly type="text" class="form-control" id="messages-box"/>
+                    </div>
+                    <div class="col-md-6">
+                        <label id="item-form-label" for="item-form" class="col-form-label">
+                            Item:
+                        </label>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="item-box"/>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="button" id="make-purchase-button" class="btn btn-primary btn-sm">
+                            <p>Make Purchase</p>
+                        </button>
+                    </div>
+                </div>
+                <hr/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 id="h3-change">Change</h3>
+                    </div>
+                    <div class="col-md-12">
+                        <input readonly type="text" class="form-control" id="change-box"/>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="button" id="change-return-button" class="btn btn-primary btn-sm">
+                            <p>Change Return</p>
+                        </button>
+                    </div>
+
+                </div>
+                <hr/>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
